@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Var Scope</title>
+</head>
+<body>
+
+    <h1>Var Scope</h1>
+
+    <script>
+
+        var name = "Pete";
+
+        console.log(name);
+
+        function testVar(nameInsideFunction)
+        {
+            console.log("testVar: " + nameInsideFunction);
+        }
+
+        testVar(name);
+
+        console.log(name);
+
+    </script>
+    
+</body>
+</html>

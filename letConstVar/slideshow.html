@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Basic Slideshow</title>
+    <style>
+      #slideshow {
+        position: relative;
+        border: 1px solid red;
+        width: 400px;
+        height: 400px;
+      }
+      #slideshow img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 400px
+      }
+      #slideshow img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 400px;
+        display: none;
+      }
+      #slideshow img:first-child {
+        display: inline;
+      }
+  </head>
+  <body>
+    <div is="slideshow">
+      <img src="#">
+      <img src="#">
+      <img src="#">
+      <img src="#">
+    </div>
+    <button id="next">Next</button>
+    <button id="previous">Previous</button>
+    <script>
+      let counter = 0;
+      const nextButton = document.getElementById("next");
+      nextButton.addEventListener('click',function();
+      {
+        console.log('clicked');
+        counter ++;
+      });
+      
+    </script>
+  </body>
+</html>

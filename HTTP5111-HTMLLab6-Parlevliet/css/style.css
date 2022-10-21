@@ -1,0 +1,93 @@
+html {
+  box-sizing:border-box;
+  font:500 1em 'Poppins', sans-serif;
+  color:black;
+}
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+body {
+  margin:0;
+}
+h2, h3, a {
+  text-transform: lowercase;
+}
+h4 {
+  font-weight:300;
+}
+a {
+  text-decoration:none;
+  color:black;
+}
+p {
+  font-weight:700;
+  font-size: 4em;
+}
+header {
+  display:flex;
+  flex-flow:wrap;
+  align-items:center;
+  gap: 3em;
+}
+header h1 {
+  font-weight:500;
+  /* FONT WEIGHT IS THE SAME AS WHAT WAS IN THE FIGMA FILE BUT APPEARS MUCH HEAVIER IN MY BROWSER */
+  flex:1 0 0;
+  font-size:2em;
+  margin-left:2em;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+nav {
+  flex:2 0 0;
+}
+.main-menu {
+  padding-left:4em;
+}
+.main-menu li {
+  display:inline-block;
+  margin-right:3.33em;
+  font-size:1.5em;
+}
+main {
+  background:url(../img/macarons\ 1.png) center center no-repeat;
+  padding-top: 4em;
+  padding-bottom: 10em;
+}
+#hero-text {
+  display:block;
+  text-align: center;
+}
+#hero-text p {
+  color:white;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  text-align:center;
+  max-width:697px;
+  padding-bottom:0;
+  margin-left:4em;
+  margin-right:4em;
+}
+#button a{
+  background-color: white;
+  color: #AD00FF;
+  border-style:inset;
+  /* MY BORDER WOULD NOT SHOW UP UNLESS I ADDED A STYLE FOR SOME REASON */
+  border-color: #AD00FF;
+  border-width:5px;
+  border-radius:36px;
+  min-width: 226px;
+  margin-top: 0;
+  margin-left:25em;
+  margin-right: 25em;
+  padding: 0.8em 3em;
+  /* I HAD ISSUES FIGURING OUT HOW TO ALIGN ELEMENTS PROPERLY */
+}
+.footer-menu li {
+  display:inline-block;
+  margin-left:1.5em;
+  padding-right:1.5em;
+  font-size:1.5em;
+}
+footer h4 {
+  margin-left:5em;
+  font-size:0.875em;
+}

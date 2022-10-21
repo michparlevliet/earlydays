@@ -1,0 +1,151 @@
+/* SOURCES ********
+ALL IMAGES AND CONTENT ARE CREATED BY ME **
+ALL IMAGES CAN BE FOUND ON INSTAGRAM.COM/MIRCHERL/ **
+
+/* GENERAL */
+
+html {
+  background-color: rgb(193, 209, 255);
+  background-image:url("../img/background-image.jpg");
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+a {
+  color:black;
+  text-decoration:none;
+}
+h1,h2,h3,h4 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* HEADING */
+
+header {
+  display:flex;
+  padding:1em;
+  background-color: white;
+  border-radius:1em;
+  justify-content:space-between;
+}
+header h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size:3em;
+  padding-left: 0.5em;
+}
+header img {
+  max-height: 7em;
+  object-fit:cover;
+  border-radius:20%;
+  padding-right:0.5em;
+}
+
+/* NAVIGATION BAR */
+
+#main-menu {
+  margin-top:-3em;
+  font-family: 'Bebas Neue', cursive;
+
+}
+#main-menu ul {
+  display:inline-block;
+  margin-left:2em;
+  margin-right:-2em;
+  padding:1em;
+  padding-left: 3em;
+  background-color: rgb(194, 60, 85);
+  border-radius:1em;
+}
+#main-menu li {
+  display:inline-block;
+  vertical-align:top;
+  margin-right:2em;
+  position:relative;
+
+}
+#main-menu li a {
+  color: white;
+}
+#main-menu ul ul {
+  border-radius:1em;
+  background-color: rgb(66, 30, 73);
+  position:absolute;
+  left:-10000px;
+  padding-top:1em;
+  padding-bottom:0;
+}
+#main-menu li li {
+  display:block;
+  padding-bottom:1em;
+}
+#main-menu li li a {
+  color: white;
+}
+ #main-menu li:hover ul {
+  left: 0;
+  margin-left:-1em; 
+  margin-top: 1.5em;
+  padding-left:1em;
+ }
+
+ /* MAIN */
+
+main {
+  display: flex;
+  gap:0.5em;
+  margin-top:-0.5em;
+}
+#left-decoration {
+  flex: 0.5 0 0;
+  padding:1em;
+  border: 3px solid white;
+  border-radius:1em;
+}
+#left-decoration h3 {
+  text-align: center;
+  background-color:white;
+  padding:0.5em;
+  border-radius: 1em;
+}
+#left-decoration img {
+  max-width:6em;
+  padding:0.5em;
+  border-radius:20%;
+  background-color: white;
+  margin-top:0.5em;
+  margin-bottom:0.5em;
+ }
+#main-blog {
+  flex: 4 0 0;
+}
+#main-article {
+  padding:1em;
+  background-color: white;
+  border-radius:1em;
+  margin-bottom:0.5em;
+}
+#main-article img {
+  max-width:10em;
+  float: right;
+  padding:0.5em;
+  border-radius:20%;
+}
+#comment-section {
+  padding:1em;
+  background-color: white;
+  border-radius:1em;
+}
+#side-bar {
+  padding:1em;
+  background-color: white;
+  border-radius:1em;
+  flex: 2 0 0;
+}
+
+/* FOOTER */
+
+footer {
+  padding:1em;
+  color: white;
+  background-color: rgb(194, 60, 85);
+  border-radius:1em;
+  margin-top:0.5em;
+}

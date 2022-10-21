@@ -1,0 +1,41 @@
+
+html {
+  background-color:blue;
+  font-family:sans-serif;
+}
+
+.wrapper {
+  margin:auto;
+  border:5px solid;
+  border-width:5px;
+  border-color:black;
+  background-color:mintcream
+}
+
+header {
+  height: auto;
+  background: linear-gradient(30deg,rgb(20,40,100),rgb(100,200,10));
+}
+
+h1 {
+  font-size: 30px;
+  color:cadetblue;
+}
+
+h2 {
+  color:cornflowerblue;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px 50px 0px 0px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+}
